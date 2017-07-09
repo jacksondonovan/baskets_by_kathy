@@ -1,0 +1,38 @@
+img{
+  width:100%;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background-color: #faebd7;
+}
+.navbar h1{
+  justify-content: flex-start;
+}
+.navbar ul{
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.navbar li{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar li a{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+}
+.kathyphoto {
+  width:100%;
+  height:400px;
+  display: flex;
+  justify-content: center;
+}
+.desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

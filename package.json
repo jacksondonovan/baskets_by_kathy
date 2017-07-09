@@ -1,0 +1,26 @@
+{
+  "name": "baskets_by_kathy",
+  "version": "1.0.0",
+  "description": "\"Browse vermont-made baskets\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksondonovan/baskets_by_kathy.git"
+  },
+  "author": "Jackson Donovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksondonovan/baskets_by_kathy/issues"
+  },
+  "homepage": "https://github.com/jacksondonovan/baskets_by_kathy#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "path": "^0.12.7"
+  }
+}
