@@ -1,5 +1,9 @@
+*{
+  background-color: #faebd7;
+}
 img{
   width:100%;
+  height:300px;
 }
 .navbar{
   display: flex;
@@ -35,4 +39,17 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.cen{
+  display: flex;
+  justify-content: center;
+}
+.buybutt{
+  width:90px;
+  height:50px;
+  background-color: green;
+  color:#FFF;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
 }

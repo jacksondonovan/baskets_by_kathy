@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
 
 app.get('/',(req,res)=>{
-  res.render('index',{msg:"'Welcome to Kath's baskets!"})
+  res.render('index',{msg:"Welcome to Kathy's baskets!"})
 })
 
 app.listen(port,(req,res)=>{
